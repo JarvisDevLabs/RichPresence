@@ -12,7 +12,7 @@ Enhance your FiveM server's presence on Discord with custom rich presence featur
 ### Requirements
 - A FiveM server
 - FXServer (latest version)
-- Basic knowledge of FiveM resource installation
+- Basic knowledge of FiveM resource installation.
 
 ### Steps
 1. **Download the script**
