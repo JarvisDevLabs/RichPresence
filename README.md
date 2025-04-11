@@ -25,7 +25,7 @@ Enhance your FiveM server's presence on Discord with custom rich presence featur
 3. **Add to server.cfg**
    - Open your `server.cfg` file and add the following line:
    ```cfg
-   ensure AD_RichPres
+   ensure Jarvis_RichPresence
    ```
 4. **Update Config**
    - Edit everything in config too your liking.    
@@ -55,7 +55,7 @@ To customize your rich presence:
            end
 
            SetDiscordRichPresenceAsset('LargeIcon') --- This has to be set in the Discord Dev Portal, add image in "Rich Presence".
-           SetDiscordRichPresenceAssetText('Astra Development') --- Name on the Rich Presence (What shows up as the Title)
+           SetDiscordRichPresenceAssetText('Jarvis Development') --- Name on the Rich Presence (What shows up as the Title)
 
            SetDiscordRichPresenceAction(0, "Join", "fivem://connect/YourIpHere") --- First button (Join allows direct server connection).
            SetDiscordRichPresenceAction(1, "Visit Website", "http://yourwebsitehere.com") --- Second button (Visit Website opens a link to your website).
@@ -68,7 +68,7 @@ To customize your rich presence:
 
 ## Troubleshooting
 - Ensure you have set up a Discord Developer Application and copied the correct `ApplicationID`.
-- Verify the `ensure AD_RichPres` line is in your `server.cfg`.
+- Verify the `ensure Jarvis_RichPresence` line is in your `server.cfg`.
 - Check your FiveM console for any errors related to the script.
 - Make sure your images for rich presence are uploaded on Discord Developer Portal.
 
@@ -79,7 +79,7 @@ Pull requests are welcome! If you find an issue or have a feature request, feel 
 This project is licensed under the MIT License.
 
 ## Credits
-Developed by Astra Development
+Developed by Jarvis Development
 
 ---
 Feel free to customize this README as needed! 🚀
